@@ -17,5 +17,5 @@ individual_bill = total_bill / n_people # Amount for each one
 
 individual_bill = round(individual_bill, 2) # Trancating the result with 2 decimal digits
 
-print(f"Each person should pay: ${individual_bill}\n") # Printing the result
+print(f"Each person should pay: ${individual_bill:.2f}\n") # Printing the result
 
