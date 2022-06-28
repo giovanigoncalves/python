@@ -63,4 +63,3 @@ else:
             print("\nIt's a draw!\n")
         else:
             print("\nYou lose!\n")
-            
