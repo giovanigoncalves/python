@@ -29,7 +29,7 @@ for j in range(0, n_symbols):
     password.append(random.choice(symbols))
 
 for k in range(0, n_numbers):
-    password.append(random.randint(0, len(numbers) - 1))
+    password.append(random.choice(numbers))
 
 random.shuffle(password)   
 
