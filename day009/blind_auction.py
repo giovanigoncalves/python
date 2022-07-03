@@ -11,7 +11,7 @@ def highest_bid(dict):
         if dict[value] > highest:
             highest = dict[value]
             winner = value
-    print(f"The winer is {winner} with a bid of ${highest}.\n\n")
+    print(f"The winner is {winner} with a bid of ${highest}.\n\n")
     
 print(logo)
 print("Welcome to the secret auction program.")
