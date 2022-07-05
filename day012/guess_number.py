@@ -3,15 +3,17 @@ from art import logo
 
 
 def difficulty(level):
+    """Set the number of attempt according to the difficulty level chosen"""
     if level == "easy":
-        life = 10
+        attempts = 10
     elif level == "hard":
-        life = 5
+        attempts = 5
     else:
         return "Invalid Answer!"
-    return life
+    return attempts
  
 def compare(user_guess, pc_number):
+    """Checks if the number is correct and deducts an attempts if it is not."""
     global life
     if user_guess == pc_number:
         return f"You got it! The answer was {pc_number}"
@@ -38,7 +40,7 @@ def play_game():
         print(life)
         invalid = True
         while invalid:
-            level = input("Choose a difficulty. Type 'easy' pr 'hard': ")
+            level = input("Choose a difficulty. Type 'easy' or 'hard': ")
             life = difficulty(level)
             if life != "Invalid Answer!":
                 invalid = False
@@ -56,7 +58,7 @@ def play_game():
             while invalid:
                 print("Invalid answer!")
                 user_guess = int(input("Make a guess: "))
-                if user_guess > 1 or user_guess < 100:
+                if user_guess >= 1 and user_guess < 100:
                     invalid = False
                     
         res = compare(user_guess, pc_number)
