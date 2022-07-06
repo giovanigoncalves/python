@@ -25,6 +25,7 @@ def compare(user_guess, pc_number):
         return "Too low."
         
 def play_game():
+    
     global life
     os.system("clear")
     print(logo)
