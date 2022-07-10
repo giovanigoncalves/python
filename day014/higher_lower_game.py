@@ -14,9 +14,11 @@ def compare(res, dict1=dict(), dict2=dict()):
     elif res == "b" and dict1["follower_count"] >= dict2["follower_count"]:
         return "incorrect"
 
+
 def option(dict=dict()):
     return f"{dict['name']}, {dict['description']}, from {dict['country']}"
-    
+
+
 os.system("clear")
 
 score = 0
