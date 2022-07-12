@@ -16,7 +16,8 @@ rafa = Turtle()
 rafa.color("red")
 rafa.speed(0)
 rafa.penup()
-rafa.shape("turtle")
+# rafa.shape("turtle")
+rafa.hideturtle()
 x_origin = -200
 y_origin = -200
 origin = (x_origin, y_origin)
