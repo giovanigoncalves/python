@@ -7,6 +7,7 @@ UP = 90
 LEFT = 180
 DOWN = 270
 
+
 class Snake:
 
     def __init__(self):
@@ -23,6 +24,17 @@ class Snake:
             snake.goto(x=self.x_coordinate, y=0)
             self.segments.append(snake)
             self.x_coordinate -= 20
+
+    def add_segment(self, position):
+        snake = Turtle(shape="square")
+        snake.penup()
+        snake.goto(x=self.x_coordinate, y=0)
+        snake.color("white")
+        self.segments.append(snake)
+        self.x_coordinate -= 20
+
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
 
     def move(self):
 
