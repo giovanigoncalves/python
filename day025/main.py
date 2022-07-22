@@ -18,10 +18,7 @@ while state.score < state.total_states:
     state.update_score(answer_state)
     state.add_state(answer_state)
 
-missed_states = []
-for option in state.data.state:
-    if option not in state.guessed_states:
-        missed_states.append(option)
+missed_states = [option for option in state.data.state if option not in state.guessed_states]
 missed_s = pd.DataFrame()
 missed_s["States"] = missed_states
 missed_s.to_csv("states_to_learn.csv")
