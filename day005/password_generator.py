@@ -5,7 +5,7 @@ letters = ["a", "b", "c", "d", "e",
            "k", "l", "m", "n", "o",
            "p", "q", "r", "s", "t",
            "u", "v", "w", "x", "y",
-           "z", "A", "B", "C", "d", 
+           "z", "A", "B", "C", "d",
            "E", "F", "G", "H", "I",
            "J", "K", "L", "M", "N",
            "O", "P", "Q", "R", "S",
@@ -31,9 +31,9 @@ for j in range(0, n_symbols):
 for k in range(0, n_numbers):
     password.append(random.choice(numbers))
 
-random.shuffle(password)   
+random.shuffle(password)
 
 print("Your password is: ", end='')
-for charactere in password:
-    print(charactere, end='')
+for character in password:
+    print(character, end='')
 print('\n')
