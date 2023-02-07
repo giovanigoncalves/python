@@ -5,9 +5,9 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 25
+WORK_MIN = 55
 SHORT_BREAK_MIN = 5
-LONG_BREAK_MIN = 20
+LONG_BREAK_MIN = 25
 reps = 0
 check = ""
 timer = None
@@ -34,7 +34,7 @@ def start_timer():
     short_break_sec = SHORT_BREAK_MIN * 60
     long_break_sec = LONG_BREAK_MIN * 60
 
-    if reps % 8 == 0:
+    if reps % 4 == 0:
         label1.config(text="Break",
                       fg=RED,
                       font=(FONT_NAME, 50, "bold"))
