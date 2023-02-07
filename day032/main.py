@@ -8,7 +8,7 @@ my_email = list(df["my_email"])[0]
 target_email = list(df["target_email"])[0]
 password = list(df["password"])[0]
 
-data = pd.read_csv("./birthdays.csv")
+data = pd.read_csv("~/data_ggr_scripts/birthdays.csv")
 birthdays_dict = {(row["month"], row["day"]): list(row) for index, row in data.iterrows()}
 today = (datetime.now().month, datetime.now().day)
 

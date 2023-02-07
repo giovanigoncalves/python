@@ -1,0 +1,30 @@
+body {
+        background-color: #ECE5C7;
+    }
+
+hr {
+    border-color: #CDC2AE;
+    border-style: dotted none none none;
+    border-width: 10px;
+    height: 0px;
+    width: 7%;
+}
+
+img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+p {
+    padding: 5px;
+    text-align: justify;
+}
+
+h1, h3 {
+    color: #354259;
+}
+
+.link_selector:hover {
+    color: #C2DED1;
+    background-color: #354259;
+}
