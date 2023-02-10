@@ -1,0 +1,25 @@
+job;location;company
+ANALISTA COMERCIAL – Regulação e Negócios;Rio de Janeiro, Rio de Janeiro, Brasil;MQ Consultoria de RH
+Lighthouse - Programa de formação em dados (Remoto);Florianópolis, Santa Catarina, Brasil;Indicium
+Sr Product Director, Data and Consumer;São Paulo, São Paulo, Brasil;Polis Consulting BR
+Solution Architect - Contract;São Paulo, Brasil;Appnovation
+Senior Android Developer, Gigster Network;Brasil;Gigster
+Contract: Senior Data Platform Engineer;Brasil;Upwork
+DevOps Engineer;Brasil;Ambra
+Analista de dados;São Paulo, São Paulo, Brasil;Pullse
+Freelance Data Collector in Brazil;Manaus, Amazonas, Brasil;Appen
+Engenheiro de Dados com Inglês Fluente;São Paulo, Brasil;Nityo Infotech
+Freelance Data Collector in Brazil;Belo Horizonte, Minas Gerais, Brasil;Appen
+Freelance Data Collector in Brazil;Belo Horizonte, Minas Gerais, Brasil;Appen
+Freelance Data Collector in Brazil;Fortaleza, Ceará, Brasil;Appen
+Freelance Data Collector in Brazil;Fortaleza, Ceará, Brasil;Appen
+Freelance Data Collector in Brazil;Fortaleza, Ceará, Brasil;Appen
+Engenheiro de dados;São Paulo, São Paulo, Brasil;Beedoo AI_Learning
+Engenheiro de dados;São Paulo, São Paulo, Brasil;Beedoo AI_Learning
+Japanese Data Collection in Brazil;Brasília, Distrito Federal, Brasil;Appen
+Engenheiro de Dados;Piracicaba, São Paulo, Brasil;Picsel
+Engenheiro de Dados;Piracicaba, São Paulo, Brasil;Picsel
+ENGENHEIRO DE DADOS;Belo Horizonte, Minas Gerais, Brasil;SGA TI em nuvem
+ENGENHEIRO DE DADOS;Belo Horizonte, Minas Gerais, Brasil;SGA TI em nuvem
+Chapecó / SC - Analista de Dados;Chapecó, Santa Catarina, Brasil;AngelLira
+SaaS/Apps Technical Analyst for Online Due Diligence Provider BR;Brasília, Distrito Federal, Brasil;SellerPlex
