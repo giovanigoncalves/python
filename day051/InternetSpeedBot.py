@@ -6,7 +6,7 @@ import pandas as pd
 
 DATA = pd.read_csv(r'C:\Users\T-Gamer\Documents\data\data.txt')
 PROMISED_DOWN = 100
-PROMISSED_UP = 50
+PROMISED_UP = 50
 CHROME_DRIVER_PATH = "/home/giovani/Softwares/chromedriver_linux64/chromedriver"
 TWITTER_EMAIL = DATA.username_twiter
 TWITTER_PASSWORD = DATA.password
@@ -22,7 +22,7 @@ class InternetSpeedTwitterBot:
         self.up = 0
         
     def message(self, download, upload):
-        return f"Hello, @internetprovider! My internet is with {download}/{upload} Mb, while I pay for 100/10 Mb."
+        return f"Hello, @internetprovider! My internet is with {download}/{upload} Mb, while I pay for {PROMISED_DOWN}/{PROMISED_UP} Mb."
         
     def get_internet_speed(self):
         self.driver.get("https://www.speedtest.net/pt")
