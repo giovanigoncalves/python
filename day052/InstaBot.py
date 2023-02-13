@@ -40,7 +40,8 @@ class InstaFollower:
          
         #  Por algum motivo, que ainda desconheço, não consigo clicar nos botões com a função a seguir:
          
- '''   def follow(self):
+'''   
+    def follow(self):
         followers = self.driver.find_elements(By.CSS_SELECTOR, 'button')
         sleep(2)
         i = 0
