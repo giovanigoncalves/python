@@ -20,6 +20,6 @@ for info in title_infos:
         title.append(info.string.split(": ")[1])
         position.append(int(info.string.split(": ")[0]))
 
-with open("movies_to_watch.txt", mode="w") as file:
+with open("movies_to_watch.txt", mode="w", encoding='utf-8') as file:
     for pos in position:
         file.write(f"{position[pos-1]} - {title[pos-1]}\n")
